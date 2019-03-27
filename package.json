@@ -1,0 +1,33 @@
+{
+  "name": "vue-chat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@progress/kendo-chat-vue-wrapper": "^2019.1.220",
+    "@progress/kendo-theme-default": "^3.4.0",
+    "@progress/kendo-ui": "^2019.1.320",
+    "express": "^4.16.4",
+    "sentiment": "^5.0.1",
+    "socket.io": "^2.2.0",
+    "uuid": "^3.3.2",
+    "vue": "^2.6.6",
+    "vue-socket.io": "^3.0.7"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
